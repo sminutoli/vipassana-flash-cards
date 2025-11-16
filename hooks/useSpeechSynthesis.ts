@@ -34,12 +34,22 @@ export const useSpeechSynthesis = () => {
     // 1. Prioritize Argentinian Spanish voices
     let preferredVoices = voices.filter(voice => voice.lang === 'es-AR');
 
-    // 2. If no specific 'es-AR' voice, fall back to any Spanish voice
+    // 2. If no 'es-AR', fall back to other Latin American Spanish voices
+    if (preferredVoices.length === 0) {
+        preferredVoices = voices.filter(voice => voice.lang.startsWith('es-') && voice.lang !== 'es-ES');
+    }
+    
+    // 3. If no Latin American voices, fall back to Spanish from Spain
+    if (preferredVoices.length === 0) {
+        preferredVoices = voices.filter(voice => voice.lang === 'es-ES');
+    }
+    
+    // 4. Final fallback to any Spanish voice if none of the above were found
     if (preferredVoices.length === 0) {
         preferredVoices = voices.filter(voice => voice.lang.startsWith('es-'));
     }
 
-    // 3. From the available list, prefer a higher quality 'Google' voice
+    // 5. From the available list, prefer a higher quality 'Google' voice for better audio
     const googleVoice = preferredVoices.find(voice => voice.name.includes('Google'));
     const selectedVoice = googleVoice || preferredVoices[0]; // Fallback to the first available in the list
 
