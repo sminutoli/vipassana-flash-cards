@@ -1,0 +1,5 @@
+{
+  "name": "Vipassana Flashcards",
+  "description": "An elegant flashcard application to study questions and answers about Vipassana meditation. Features card shuffling, tag-based filtering, and text-to-speech functionality for an enhanced learning experience.",
+  "requestFramePermissions": []
+}

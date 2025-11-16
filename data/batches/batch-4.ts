@@ -1,0 +1,127 @@
+
+import { Flashcard } from '../../types';
+
+const batch: Flashcard[] = [
+  {
+    "id": 80,
+    "pregunta": "¿Cómo puedo practicar el Dharma y aun así aferrarme a mis esperanzas y aspiraciones de hacer del mundo un lugar mejor?",
+    "respuesta": "<p>Usted tiene <span class=\"key\">aspiraciones</span>, no hay nada de malo en ello. Pero para alcanzar tus aspiraciones, si sigues generando impureza en tu mente, estás muy lejos de tu objetivo. Estás perdiendo la paz y la armonía de tu mente. Con tranquilidad, manteniendo perfecto <span class=\"key\">equilibrio de la mente</span>, haz todo lo que sea necesario en la vida humana, bueno para ti y bueno para los demás.</p>",
+    "tags": ["Dhamma", "Aspiraciones", "Equilibrio Mental", "Impureza", "Mente Equilibrada"]
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Cuál es la relevancia del Dhamma para una persona en la calle cuyo estómago está vacío?",
+    "respuesta": "<p>El <span class=\"key\">Dhamma</span> es útil para todos, ricos o pobres. Un gran número de personas que viven en la pobreza acuden a los cursos de <strong>Vipassana</strong> y los encuentran muy útiles. Sus estómagos están vacíos pero sus mentes también están muy agitadas. Con Vipassana aprenden a estar tranquilos y <span class=\"key\">ecuánimes</span>. Entonces podrán afrontar sus problemas y sus vidas mejorarán. También salen de la adicción al alcohol, el juego y las drogas.</p>",
+    "tags": ["Dhamma", "Pobreza", "Vipassana", "Ecuanimidad", "Relevancia Social"]
+  },
+  {
+    "id": 82,
+    "pregunta": "Puedo entender que la meditación ayudará a las personas inadaptadas e infelices, pero ¿cómo puede ayudar a alguien que ya se siente satisfecho con su vida, que ya es feliz?",
+    "respuesta": "<p>Alguien que permanece satisfecho con los placeres superficiales de la vida ignora la agitación profunda de la <span class=\"key\">mente</span>. Tiene la <span class=\"key\">ilusión</span> de que es una persona feliz, pero sus placeres no son duraderos y las tensiones generadas en los niveles profundos de la mente siguen aumentando, para aparecer tarde o temprano en la superficie de la mente. Cuando eso sucede, esta persona supuestamente \"feliz\" se vuelve miserable. Entonces, ¿por qué no empezar a trabajar aquí y ahora para afrontar esa situación?</p>",
+    "tags": ["Felicidad Superficial", "Ilusión", "Mente Profunda", "Tensiones", "Vipassana"]
+  },
+  {
+    "id": 83,
+    "pregunta": "¿Qué es mejor: la construcción de templos, el servicio, la enseñanza o el trabajo hospitalario?",
+    "respuesta": "<p>Todos estos <span class=\"key\">servicios sociales</span> son importantes; No hay nada malo con ellos. Pero hazlos con <span class=\"key\">pureza de mente</span>. Si lo haces con una mente impura, generando ego, no te ayuda a ti ni a los demás. Hazlo con pureza de mente, con amor, con compasión y descubrirás que esto ha comenzado a ayudarte y también ha comenzado a brindar beneficios reales a los demás.</p>",
+    "tags": ["Servicio Social", "Pureza de Mente", "Ego", "Motivación", "Vipassana"]
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Qué es el Dhamma?",
+    "respuesta": "<p>Lo que nuestra mente contiene, en este momento, es <span class=\"key\">Dhamma</span>. Dhamma es todo lo que existe. El término original pali para el budismo es <em>Dhamma</em>, que, literalmente, significa aquello que sostiene. No existe un equivalente en inglés que transmita exactamente el significado del término pali. El Dhamma es lo que realmente es. Es la <span class=\"key\">Doctrina de la Realidad</span>. Es un medio de Liberación del sufrimiento y la Liberación misma. Ya sea que los Budas surjan o no, el Dhamma existe. Permanece oculto a los ojos ignorantes de los hombres, hasta que un Buda, un Iluminado, se da cuenta y compasivamente lo revela al mundo. Este Dhamma no es algo aparte de uno mismo, sino que está estrechamente asociado con uno mismo. Como tal, el Buda exhorta:</p><quote>\"Permanecer consigo mismo como una isla, consigo mismo como un Refugio. Permanecer con el Dhamma como una Isla, con el Dhamma como un refugio. No busque ningún refugio externo\".</quote>",
+    "tags": ["Dhamma", "Realidad", "Liberación", "Buda", "Doctrina de la Realidad", "Vipassana"]
+  },
+  {
+    "id": 85,
+    "pregunta": "¿Hay alguna diferencia entre Dharma y Dhamma?",
+    "respuesta": "<p>No hay <span class=\"key\">diferencia</span>.</p>",
+    "tags": ["Dharma", "Dhamma", "Terminología", "Vipassana"]
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Cuál es la diferencia entre Dharma y deber?",
+    "respuesta": "<p>Todo lo que sea <span class=\"key\">útil</span> para usted y para los demás es su deber, es el <span class=\"key\">Dharma</span>. Todo lo que sea perjudicial para ti y perjudicial para los demás no es tu deber, porque te perjudica a ti y también perjudica a los demás.</p>",
+    "tags": ["Dharma", "Deber", "Utilidad", "Beneficio Mutuo", "Vipassana"]
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Cómo equiparas religión y Dhamma?",
+    "respuesta": "<p>Si la <span class=\"key\">religión</span> se toma en un <span class=\"key\">sentido sectario</span>, como la religión hindú, la religión musulmana o la religión budista, etc., entonces está totalmente en contra del <strong>Dhamma</strong>. Pero si la religión se toma como la <span class=\"key\">ley de la naturaleza</span>, la ley universal de la naturaleza, entonces es lo mismo que el Dhamma.</p>",
+    "tags": ["Religión", "Dhamma", "Sectarismo", "Ley de la Naturaleza", "Universal", "Vipassana"]
+  },
+  {
+    "id": 88,
+    "pregunta": "¿Cuál es la diferencia en el Dharma entre hindúes y musulmanes?",
+    "respuesta": "<p>Entienda: no estoy en contra de los hindúes ni de los musulmanes. Soy amigable con todos, pero estoy en contra de llamarlos <span class=\"key\">Dharma</span>. Llámalos grupo de personas, llámalos secta, pero cuando llamas a esa secta \"Dharma\", simplemente te estás engañando a ti mismo y a los demás. El Dharma es <span class=\"key\">universal</span>. El Dharma hindú es sólo para una sociedad particular o una secta particular, por lo que no es Dharma. Lo mismo ocurre con los musulmanes, los budistas o los cristianos.</p><p>Todos deberían sobrevivir, deberían tener buena voluntad unos para otros. Si todo el mundo es una persona del Dhamma, entonces no hay diferencia si uno se llama a sí mismo hindú o musulmán; vivirán de una manera muy cordial, porque todos son personas del Dhamma. Ser una persona del <strong>Dhamma</strong> es más importante que ser un hindú acérrimo o un musulmán acérrimo.</p>",
+    "tags": ["Dharma", "Sectarismo", "Universal", "Hindú", "Musulmán", "Vipassana"]
+  },
+  {
+    "id": 89,
+    "pregunta": "En la India existen muchos tipos de prácticas religiosas, costumbres sociales y castas. En estas condiciones, ¿cómo puede ser útil Vipassana?",
+    "respuesta": "<p><strong>Vipassana</strong> es la única manera de ayudar en tal situación. En todas estas sectas, comunidades, creencias, dogmas, ritos y rituales, hay algo <span class=\"key\">universal</span>: el objetivo de <span class=\"key\">purificar la mente</span> hasta tal punto que no te hagas daño a ti mismo ni a los demás. Ahora bien, uno puede pertenecer a cualquier comunidad o creencia, pero todo el mundo puede aceptarlo fácilmente.</p><p>Un ejemplo: un gran número de sacerdotes y monjas cristianos vienen a los cursos y algunos han dicho: \"Estás enseñando cristianismo en nombre de Buda\". Todo el mundo quiere que la mente se vuelva pura. De manera similar, ya sea que uno sea jainista, hindú o cualquier otra cosa, si comienza a hacer Vipassana, descubrirá que es universal y bueno para todos. Todas estas diferencias serán irrelevantes para las personas que comienzan a trabajar en Vipassana. Y esto dará unidad al país, unidad a toda la humanidad.</p>",
+    "tags": ["Vipassana", "India", "Castas", "Sectarismo", "Universal", "Purificación Mental"]
+  },
+  {
+    "id": 90,
+    "pregunta": "Por favor aclare la distinción entre Dhamma y secta. Parece que el veneno del fundamentalismo religioso sectario está a punto de destruir toda la civilización humana. ¿Se puede evitar esto?",
+    "respuesta": "<p>Sí, es nuestro deber seguir explicando a la gente qué es el <span class=\"key\">Dhamma</span> y qué es el <span class=\"key\">sectarismo</span>. Es muy desafortunado que cuando el Dhamma surge en su forma pura, muy pronto se deteriora hasta convertirse en una secta. De modo que la diferencia entre ambos debería quedar clara para ayudar a evitar esta catástrofe en todo el mundo y especialmente en un país como la India, donde hay tanta división sectaria y tanta lucha. Pero este problema está en todas partes de una forma u otra.</p><p>Para quien practica Vipassana, queda muy claro qué es el Dhamma: el Dhamma es la <span class=\"key\">ley de la naturaleza</span>. El Dhamma es siempre <strong>universal</strong>, la ley de la naturaleza es universal. Las cosas sectarias nunca pueden ser universales. Son diferentes unos de otros. Para aquellos que practican Vipassana, se vuelve cada vez más claro: \"Mira, a medida que contamina mi mente, la naturaleza comienza a castigarme aquí y ahora. No es que tenga que esperar hasta mi próxima vida para recibir el castigo. De manera similar, a medida que me purifico, mi mente soy recompensado, y soy recompensado aquí y ahora. Esta es la ley de la naturaleza, este es el Dhamma\".</p><p>Si realizamos cualquier acción pura (vocal, mental, física), entonces ciertamente estamos en el camino del Dhamma porque somos recompensados y comenzamos a ayudar a los demás. De lo contrario, somos perjudicados y también perjudicamos a otros. Esta distinción tan simple entre Dhamma y secta debe volverse cada vez más clara. Para aquellos que meditan, queda claro que un criterio para medir si uno realmente está progresando en Vipassana o no es si se están disolviendo los apegos a creencias sectarias, creencias filosóficas, ritos y rituales sectarios, celebraciones religiosas sectarias, etc. Si el apego aún es muy fuerte, uno puede sentir: \"Estoy progresando en Vipassana\", pero en realidad esta persona no está progresando en Vipassana. Si uno progresa en Vipassana, entonces naturalmente, sin ningún esfuerzo, todos los <span class=\"key\">apegos</span> desaparecerán, porque uno ha comenzado a comprender cuál es el verdadero Dhamma universal.</p>",
+    "tags": ["Dhamma", "Secta", "Sectarismo", "Ley de la Naturaleza", "Universal", "Apego", "Vipassana"]
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Cuál es la diferencia entre creencias sectarias y creencias del Dhamma?",
+    "respuesta": "<p>Las <span class=\"key\">creencias</span> son siempre <span class=\"key\">sectarias</span>. El Dhamma no tiene creencias. En el Dhamma experimentas y luego crees. No existe una <span class=\"key\">creencia ciega</span> en el Dhamma. Debes experimentar y luego creer sólo lo que hayas experimentado.</p>",
+    "tags": ["Creencias", "Dhamma", "Sectarismo", "Creencia Ciega", "Experiencia", "Vipassana"]
+  },
+  {
+    "id": 92,
+    "pregunta": "El sectarismo parece ser otra forma de castismo. ¿Cómo debemos protegernos contra estos males?",
+    "respuesta": "<p>Para mí, el <span class=\"key\">sectarismo</span> es peor que el <span class=\"key\">sistema de castas</span>. La discriminación por motivos de casta es un veneno, pero se limita sólo a la India; El sectarismo se ha vuelto ahora <span class=\"key\">universal</span>. En todas partes la gente está obsesionada con su propia secta y siente: \"¡Mi secta es la mejor!\". Para ellos su secta se ha convertido en el Dhamma. El Dhamma es la <span class=\"key\">ley de la naturaleza</span>. Es universal, no puede pertenecer a una secta particular. Si uno genera negatividad en la mente, está destinado a volverse miserable; uno puede llamarse hindú, budista, cristiano o musulmán, pero este hecho no cambia porque es la ley de la naturaleza.</p><p>Del mismo modo, si uno erradica las impurezas de *lobha*, *dosa*, *moha* [deseo, aversión, ignorancia] de la mente, seguramente se sentirá liberado y en paz. Uno puede considerarse religioso pero no tener ni un rastro del Dhamma, en cuyo caso la etiqueta no tiene significado. Pero si alguien de cualquier religión está lleno del Dhamma y es una buena persona, entonces esa persona ayudará a crear una sociedad saludable. Mientras el sectarismo siga levantando cabeza no puede haber paz en el mundo. Del mismo modo, mientras el sistema de castas siga levantando cabeza en este país, no puede haber paz en este país.</p><p>El Buda condenó el sistema de castas y dijo que uno no es un <em>brāhmaṇa</em> [de la casta más elevada] sólo porque nace de padres <em>brāhmaṇa</em>: Uno se vuelve <em>brāhmaṇa</em> sólo purificando la mente. Aquel a quien se le llama <em>śūdra</em> [casta inferior] por haber nacido en una familia <em>śūdra</em>, puede llegar a ser <em>brāhmaṇa</em> purificando la mente. Por lo tanto, tenemos que seguir dándole importancia al Dhamma y seguir explicando que tanto el sectarismo como el castismo son <span class=\"key\">enemigos del Dhamma</span>. No importa a qué casta o religión uno pertenezca, si no le importa vivir la vida de <em>sīla</em>, <em>samādhi</em> y <em>paññā</em>, ha desperdiciado su vida, se ha hecho daño a sí mismo y ha dañado a otros. Si te estableces en <em>sīla</em>, <em>samādhi</em> y <em>paññā</em>, no importa a qué religión pertenezcas, eres una persona buena, liberada y piadosa, y las buenas personas forman una buena sociedad.</p>",
+    "tags": ["Sectarismo", "Castas", "Dhamma", "Ley de la Naturaleza", "Universal", "Sila", "Samadhi", "Paññā", "Vipassana"]
+  },
+  {
+    "id": 93,
+    "pregunta": "Hace poco escuché hablar a una persona famosa, alguien que obviamente era muy perspicaz, muy sabio, muy inteligente, muy brillante, pero también, según mi percepción, muy egoísta, de una manera que parecía potencialmente peligrosa para esa persona y para los demás. ¿Cómo recomiendas responderle a una persona así?",
+    "respuesta": "<p>Verá, si simplemente le dice a esa persona: \"Mira, eres una persona muy sabia, pero a mí me parece que también eres una persona egoísta\", eso no ayudará. Esta persona se volverá más <span class=\"key\">egoísta</span>: \"¿Qué sabes? Eres un tipo loco. No sabes que estoy libre de ego\". Eso es lo que dirá esta persona. Lo mejor es intentar <span class=\"key\">purificarse primero</span>. Con una <span class=\"key\">mente pura</span>, todo lo que digas será muy eficaz.</p><p>Cuando las palabras provienen de una persona de mentalidad piadosa, incluso esta persona llena de ego comenzará a pensar: \"Sí, tal vez esto sea correcto. Ahora déjame examinar esto. Debe haber algo mal en mí\". Pero cuando dices, con cualquier tipo de ira u odio: \"Oh, este tipo habla como si fuera una persona muy sabia, pero en realidad es un tipo loco\", cuando incluso la voluntad conlleva algo de odio, las palabras no tendrán significado.. No servirá de nada, porque la vibración de la ira o del odio se irá con ellos. Cuando tenéis odio, esa vibración de odio irá y tocará a esta persona y se agitará; no le gustará.</p><p>Pero si una vibración de <span class=\"key\">amor</span> va acompañada de las mismas palabras, descubrirás que se está produciendo un gran cambio. Todo aquel que quiera ayudar a otros a salir de la miseria o de sus defectos, primero debe salir él mismo de ese defecto en particular. Un cojo no puede sustentar a otro cojo. Un ciego no puede mostrar el camino a otro ciego. <strong>Vipassana</strong> le ayuda a usted primero a convertirse en una persona sana y luego, automáticamente, comenzará a ayudar a otros a estar sanos.</p>",
+    "tags": ["Egoísmo", "Pureza Mental", "Ayudar a Otros", "Vibraciones", "Amor", "Vipassana"]
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Deberíamos tratar de evitar nuestro ego v tratar de reprimirlo o simplemente dejarlo estar?",
+    "respuesta": "<p>Nunca lo empujes hacia abajo. No puedes expulsar ni <span class=\"key\">reprimir</span> el <span class=\"key\">ego</span>. Se sigue multiplicando por eso. Naturalmente se disolverá si practicas. Deja que suceda de forma natural y esta técnica te ayudará. El Dhamma ayudará.</p>",
+    "tags": ["Ego", "Represión", "Disolución Natural", "Dhamma", "Ilusión", "Paz", "Sabiduría", "Vipassana"]
+  },
+  {
+    "id": 95,
+    "pregunta": "Me doy cuenta de que soy muy egoísta y dispuesto a menospreciar a otras personas. ¿Cuál es la mejor manera de salir de este problema?",
+    "respuesta": "<p>Sal de ahí meditando. Si el <span class=\"key\">ego</span> es fuerte, se intentará menospreciar a los demás, rebajar su importancia y aumentar la propia. Pero la <span class=\"key\">meditación</span> disuelve naturalmente el ego. Cuando se disuelve, ya no puedes hacer nada para lastimar a otro. Medita y el problema se resolverá automáticamente.</p>",
+    "tags": ["Ego", "Egoísmo", "Meditación", "Vipassana"]
+  },
+  {
+    "id": 96,
+    "pregunta": "¿Por qué sigo reforzando este ego? ¿Por qué sigo intentando ser \"yo\"?",
+    "respuesta": "<p>Esto es para lo que la mente está <span class=\"key\">condicionada</span> a hacer, por <span class=\"key\">ignorancia</span>. Pero <strong>Vipassana</strong> puede liberarte de este condicionamiento dañino. En lugar de pensar siempre en uno mismo, puedes aprender a pensar en los demás.</p>",
+    "tags": ["Ego", "Condicionamiento", "Ignorancia", "Vipassana", "Reacción"]
+  },
+  {
+    "id": 97,
+    "pregunta": "Hablas del ego \"yo\" sólo en términos negativos. ¿No tiene un lado positivo? ¿No existe una experiencia del \"yo\" que llena a una persona de alegría, paz y éxtasis?",
+    "respuesta": "<p>A través de la práctica de <strong>Vipassana</strong>, encontrará que todos esos placeres sensuales son <span class=\"key\">impermanentes</span>; vienen y pasan. Si este \"yo\" realmente los disfruta, si son \"mis\" placeres, entonces \"yo\" debo tener algún dominio sobre ellos. Pero simplemente surgen y desaparecen sin mi control. ¿Qué 'yo' hay?</p>",
+    "tags": ["Ego", "Yo", "Imperpermanente", "Placeres Sensuales", "Vipassana", "Moralidad", "Dhamma"]
+  },
+  {
+    "id": 98,
+    "pregunta": "No hablo de placeres sensuales, sino de un nivel muy profundo.",
+    "respuesta": "<p>En ese nivel, el \"yo\" no tiene ninguna importancia. Cuando alcanzas ese nivel, el <span class=\"key\">ego se disuelve</span>. Sólo hay <span class=\"key\">alegría</span>. La cuestión del \"yo\" no surge entonces.</p>",
+    "tags": ["Ego", "Disolución del Ego", "Alegría Profunda", "Buda", "Vipassana"]
+  },
+  {
+    "id": 99,
+    "pregunta": "Bueno, en lugar de \"yo\", digamos la experiencia de una persona. Los sentimientos sienten; no hay nadie que lo sienta. Las cosas simplemente están sucediendo, eso es todo.",
+    "respuesta": "<p>Ahora te parece que debe haber un \"yo\" que siente, pero después de comenzar a practicar <strong>Vipassana</strong>, llegarás a la etapa en la que el <span class=\"key\">ego se disuelve</span>. ¡Entonces tu pregunta desaparecerá!</p><p>Para propósitos convencionales, sí, no podemos evitar el uso de palabras como \"yo\" o \"mío\", etc. Pero aferrarnos a ellas, tomarlas como reales en un sentido último sólo traerá <span class=\"key\">sufrimiento</span>.</p>",
+    "tags": ["Ego", "Vipassana", "Disolución del Ego", "Sufrimiento", "Buda"]
+  }
+];
+
+export default batch;
