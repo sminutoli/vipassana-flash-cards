@@ -21,7 +21,7 @@ const ControlsComponent: React.FC<ControlsProps> = ({
   hasCards
 }) => {
   return (
-    <div className="flex items-center justify-center space-x-2 md:space-x-4 mt-8">
+    <div className="flex items-center justify-center space-x-2 md:space-x-4">
       <button
         onClick={onShuffle}
         disabled={!hasCards}

@@ -66,6 +66,15 @@ function App() {
     };
     loadCard();
   }, [currentIndex, deck]);
+  
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if(e.key === 'ArrowLeft') handlePrev();
+      if(e.key === 'ArrowRight') handleNext();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, deck])
 
   const handleShuffle = useCallback(() => {
     setDeck(prev => shuffleArray(prev));
@@ -126,11 +135,11 @@ function App() {
         <p className="text-lg text-gray-600 mt-2">Preguntas y Respuestas para el estudio</p>
       </header>
 
-      <main className="w-full flex-grow flex flex-col items-center justify-center">
+      <main className="w-full flex flex-col items-center justify-center">
         {renderContent()}
       </main>
 
-      <footer className="w-full flex justify-center mt-4">
+      <footer className="w-full flex justify-center mt-8">
         <ControlsComponent
           onPrev={handlePrev}
           onNext={handleNext}
