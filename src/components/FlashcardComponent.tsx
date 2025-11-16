@@ -16,6 +16,14 @@ const FlashcardComponent: React.FC<FlashcardProps> = ({ card }) => {
     cancel();
   }, [card.id, cancel]);
 
+  useEffect(() => {
+    const handleKeyDown = (e:KeyboardEvent) => {
+      if(e.key === ' ') handleFlip();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isFlipped])
+
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
@@ -35,7 +43,7 @@ const FlashcardComponent: React.FC<FlashcardProps> = ({ card }) => {
       <div className={`relative w-full h-96 md:h-[28rem] preserve-3d transition-transform duration-700 ${isFlipped ? 'rotate-y-180' : ''}`}>
         {/* Front of the card */}
         <div className="absolute w-full h-full backface-hidden rounded-xl shadow-2xl bg-stone-50 border border-stone-200 flex items-center justify-center p-8 text-center">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-800 leading-relaxed">{card.pregunta}</h1>
+          <h1 className="text-2xl md:text-3xl text-gray-800 leading-relaxed">{card.pregunta}</h1>
         </div>
 
         {/* Back of the card */}
