@@ -68,7 +68,7 @@ function App() {
   }, [currentIndex, deck]);
   
   useEffect(() => {
-    const handleKeyDown = (e) => {
+    const handleKeyDown = (e:KeyboardEvent) => {
       if(e.key === 'ArrowLeft') handlePrev();
       if(e.key === 'ArrowRight') handleNext();
     };
