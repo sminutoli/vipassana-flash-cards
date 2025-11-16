@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { fullDeck as allCardIds } from './data/deck';
 import { tagToIdsMap } from './data/tag-index';
 import { getCardById, preloadBatchForCardId } from './data/batch-loader';
