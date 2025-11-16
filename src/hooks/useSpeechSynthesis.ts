@@ -31,7 +31,7 @@ export const useSpeechSynthesis = () => {
 
     // --- Voice Selection Logic ---
     // 1. Prioritize Argentinian Spanish voices
-    let preferredVoices = voices.filter(voice => ['es-AR', 'es-MX', 'es-CO', 'es-LA'].includes(voice.lang) );
+    let preferredVoices = voices.filter(voice => ['es-AR', 'es-MX'].includes(voice.lang) );
 
     // 2. If no specific 'es-AR' voice, fall back to any Spanish voice
     if (preferredVoices.length === 0) {
