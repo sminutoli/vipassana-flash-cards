@@ -63,7 +63,7 @@ const FlashcardComponent: React.FC<FlashcardProps> = ({ card }) => {
       {supported && (
         <button
           onClick={handleSpeech}
-          className="absolute top-4 right-4 z-20 p-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+          className="absolute -top-4 -right-4 z-20 p-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
           aria-label={isSpeaking ? "Stop speech" : "Read text"}
         >
           {isSpeaking ? <StopIcon className="w-6 h-6" /> : <SpeakerIcon className="w-6 h-6" />}
