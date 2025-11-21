@@ -131,8 +131,8 @@ function App() {
   return (
     <div className="bg-gray-100 text-gray-900 min-h-screen flex flex-col items-center justify-center p-4">
       <header className="text-center mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold">Vipassana Flashcards</h1>
-        <p className="text-lg text-gray-600 mt-2">Preguntas y Respuestas para el estudio</p>
+        <h1 className="text-4xl md:text-5xl font-bold">Un almacén de respuestas</h1>
+        <p className="text-lg text-gray-600 mt-2">Compilación de preguntas y respuestas de SN Goenka sobre Vipassana</p>
       </header>
 
       <main className="w-full flex flex-col items-center justify-center">
