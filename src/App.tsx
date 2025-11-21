@@ -132,7 +132,7 @@ function App() {
     <div className="bg-gray-100 text-gray-900 min-h-screen flex flex-col items-center justify-center p-4">
       <header className="text-center mb-8">
         <h1 className="text-4xl md:text-5xl font-bold">Un almacén de respuestas</h1>
-        <p className="text-lg text-gray-600 mt-2">Compilación de preguntas y respuestas de SN Goenka sobre Vipassana</p>
+        <p className="text-lg text-gray-600 mt-2">Compilación de preguntas y respuestas de SN Goenka sobre Vipassana. <a href='./un-almacen-de-respuestas-por-sn-goenka.pdf' download>(descargar PDF)</a></p>
       </header>
 
       <main className="w-full flex flex-col items-center justify-center">
